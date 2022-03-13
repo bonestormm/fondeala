@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Ejemplo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="mx-auto">
+
+    <div class="container mx-auto">
+        <div class="" id="logo">
+            <img src="img/logoF.png" alt="Fondeala" width="67" height="80">
+        </div>
+        <hr class="m-2">
+        <div class="" id="start">
+            <h1 class="font-bold uppercase text-3xl">Become an investor with NFT</h1>
+            <p class="py-3">Connect your Status Wallet and boost new startups</p>
+        </div>
+        <div>
+            <button class="bg-purple-700 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded-lg">
+              <p id="web3_message"></p>
+          </button>
+            <button class="bg-purple-700 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded-lg w-48">
+            <p>Explore</p>
+        </button>
+        </div>
+        <!-- <h1 class="text-center">Marketplace</h1> -->
+        <div class="py-5" name="primary-market">
+            <h2>Primary Market</h2>
+            <button onclick="mint()" class="bg-purple-700 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded-lg w-48">Mint!</button><br/>
+        </div>
+        <h3 class="font-bold text-center p-4">My NFTs</h3>
+        <div id="my_nfts"></div>
+        <h2 class="font-bold text-center p-4">Secondary Market</h2>
+        <h3 class="font-bold">My listings</h3>
+        <div id="my_listings" class=""></div>
+        <h3 class="font-bold text-center p-4">Explore</h3>
+
+        <div id="all_listings" class="flex"></div>
+
+
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.3.5/web3.min.js"></script>
+    <script type="text/javascript" src="blockchain_stuff.js"></script>
+</body>
+
+</html>
